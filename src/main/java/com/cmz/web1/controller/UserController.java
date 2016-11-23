@@ -21,9 +21,9 @@ public class UserController {
 	private UserService userService;
 	
 	@RequestMapping("hello")
-	@ResponseBody
+	//@ResponseBody
 	public String show(){
-		userService.update();
+		//userService.update();
 		return "hello";
 	}
 }
